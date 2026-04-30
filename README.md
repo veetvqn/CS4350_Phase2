@@ -224,7 +224,7 @@ expected workflow:
 
 ## License
 
-Coursework — for grading purposes only. The dataset is the
+The dataset is the
 [SMS Spam Collection](https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
 from the UCI Machine Learning Repository, originally published by Almeida,
 Hidalgo & Yamakami (2011).
