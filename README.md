@@ -1,4 +1,4 @@
-# CS 4350/7350 — Phase 2: SMS Spam Detection with Apache Spark
+# CS 4350 Phase 2: SMS Spam Detection with Apache Spark
 
 A binary text-classification project. The full machine-learning workflow 
 is implemented as a series of Spark ML Pipelines, with TF-IDF feature 
