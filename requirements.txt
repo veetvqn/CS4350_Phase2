@@ -1,0 +1,12 @@
+# CS4350/7350 Phase 2 — SMS Spam Detection
+# Python 3.10+ recommended. Spark also requires Java 8/11/17/21 (17 LTS recommended).
+
+pyspark==3.5.1
+numpy>=1.24
+matplotlib>=3.7
+pandas>=2.0
+
+# Jupyter — only needed if you don't already have a kernel in your environment
+# (skip if you're running through VS Code's built-in Jupyter support).
+jupyter>=1.0
+ipykernel>=6.0
