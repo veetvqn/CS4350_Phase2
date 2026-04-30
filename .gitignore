@@ -1,5 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Spark local junk
 metastore_db/
 derby.log
 spark-warehouse/
-.ipynb_checkpoints/
-__pycache__/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data — uncomment the next line if you decide NOT to commit spam.csv
+# data/
