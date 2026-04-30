@@ -1,0 +1,5 @@
+metastore_db/
+derby.log
+spark-warehouse/
+.ipynb_checkpoints/
+__pycache__/
