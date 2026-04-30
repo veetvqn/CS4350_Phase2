@@ -205,20 +205,20 @@ Jupyter notebooks are JSON and merge poorly. To minimize pain:
 The notebook is organized into ten sections that follow the rubric's
 expected workflow:
 
-| Section | Owner | What it does |
+| Section | Contributor | What it does |
 |---|---|---|
-| 1. Load dataset | shared | Reads `spam.csv` into a Spark DataFrame |
-| 2. EDA | shared | Schema, class distribution, nulls, duplicates |
-| 3. Cleaning | shared | Drops garbage columns, nulls, duplicates; message-length and top-words analysis |
-| 4. Feature engineering | shared | Builds `text_pipeline_stages` (StringIndexer, RegexTokenizer, StopWordsRemover, CountVectorizer, IDF) |
-| 4.1 Train/test split | shared | Stratified 80/20 |
-| 4.2 Smoke test | shared | One LR pipeline to verify wiring |
-| 5. Six classifier pipelines | Teammate B | LR, NB, DT, RF, GBT, SVM |
-| 6. Evaluation | Teammate B | Accuracy, precision, recall, F1, AUC |
-| 7. Confusion matrices | Teammate C | For top 2 models |
-| 8. Hyperparameter tuning | Teammate C | CrossValidator + ParamGridBuilder |
-| 9. Model comparison | shared | Results table + bar chart |
-| 10. Discussion | Teammate C | Interpretation, limitations, conclusions |
+| 1. Load dataset | Viet | Reads `spam.csv` into a Spark DataFrame |
+| 2. EDA | Viet | Schema, class distribution, nulls, duplicates |
+| 3. Cleaning | Viet | Drops garbage columns, nulls, duplicates; message-length and top-words analysis |
+| 4. Feature engineering | Viet | Builds `text_pipeline_stages` (StringIndexer, RegexTokenizer, StopWordsRemover, CountVectorizer, IDF) |
+| 4.1 Train/test split | Viet | Stratified 80/20 |
+| 4.2 Smoke test | Viet | One LR pipeline to verify wiring |
+| 5. Six classifier pipelines | TBD | LR, NB, DT, RF, GBT, SVM |
+| 6. Evaluation | TBD | Accuracy, precision, recall, F1, AUC |
+| 7. Confusion matrices | TBD | For top 2 models |
+| 8. Hyperparameter tuning | TBD | CrossValidator + ParamGridBuilder |
+| 9. Model comparison | TBD | Results table + bar chart |
+| 10. Discussion | TBD | Interpretation, limitations, conclusions |
 
 ---
 
