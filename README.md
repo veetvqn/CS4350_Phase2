@@ -213,12 +213,12 @@ expected workflow:
 | 4. Feature engineering | Viet | Builds `text_pipeline_stages` (StringIndexer, RegexTokenizer, StopWordsRemover, CountVectorizer, IDF) |
 | 4.1 Train/test split | Viet | Stratified 80/20 |
 | 4.2 Smoke test | Viet | One LR pipeline to verify wiring |
-| 5. Six classifier pipelines | TBD | LR, NB, DT, RF, GBT, SVM |
-| 6. Evaluation | TBD | Accuracy, precision, recall, F1, AUC |
-| 7. Confusion matrices | TBD | For top 2 models |
-| 8. Hyperparameter tuning | TBD | CrossValidator + ParamGridBuilder |
-| 9. Model comparison | TBD | Results table + bar chart |
-| 10. Discussion | TBD | Interpretation, limitations, conclusions |
+| 5. Six classifier pipelines | Bronson | LR, NB, DT, RF, GBT, SVM |
+| 6. Evaluation | Bronson | Accuracy, precision, recall, F1, AUC |
+| 7. Confusion matrices | Bronson | For top 2 models |
+| 8. Hyperparameter tuning | Aaron | CrossValidator + ParamGridBuilder |
+| 9. Model comparison | Aaron | Results table + bar chart |
+| 10. Discussion | Aaron | Interpretation, limitations, conclusions |
 
 ---
 
